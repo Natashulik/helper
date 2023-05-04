@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(220, 220, 220);
+}
+
+.wrapper {
+    width: 1280px;
+    margin: 0 auto;
+    background-color: rgb(220, 220, 220);
+    border: 1px solid rgb(152, 151, 151, 0.4);
+ }
+
+header {
+	display: flex;
+    border-bottom: 1px solid rgb(152, 151, 151, 0.4);
+
+	
+}
+
+.logo {
+	margin-left: 20px;
+	margin-right: 200px;
+}
+
+.logo_image {
+	width: 200px;
+	padding-top: 5px;
+}
+
+.title,
+.scheme_title {
+	margin-top: 25px;
+	font-family: 'Comfortaa';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 1.1;
+ 	color: #292929;
+}
+.title a {
+    text-decoration: none;
+    color: #292929;
+}
+
+.main {
+    display: flex;
+  
+    background-color: rgb(238, 237, 237);
+}
+
+
+.sidebar {
+    width: 350px;
+    height: auto;
+    margin-right: 25px;
+    background-color: rgb(227, 227, 227);
+  
+}
+
+.sidebar_title {
+    font: 16px/30px 'Montserrat';
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.nav {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font: 16px/32px 'Montserrat';
+    font-weight: 400;
+    list-style-type: none;
+   }
+
+.nav a {
+    text-decoration: none;
+    color: #292929;
+}
+
+
+.nav li:hover {
+    font-weight: 500;
+   /* background-color:  rgb(213, 212, 212);*/
+    background-color: rgb(216, 216, 216);
+}
+
+.content {
+ 
+    width: 890px;
+    margin-right: 20px;
+}
+
+
+.content_title {
+    margin: 20px;
+    font: 20px/30px 'Montserrat';
+    font-weight: 600;
+}
+
+
+.content_text {
+    padding: 0 15px;
+    font: 16px/24px 'Montserrat';
+    font-weight: 400;
+    text-align: justify;
+}
+
+.content_text ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.content_text p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.content_code {
+    width: 850px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color:  rgb(250, 248, 248);
+    color: #292929;
+    border-radius: 10px;
+    border: 1px dashed rgb(200, 198, 198);
+    padding: 0 10px;
+    font: 16px/24px 'Montserrat';
+    font-weight: 400;
+   
+}
+
+.scheme_title {
+	margin-top: 25px;
+    font-weight: 600;
+    font-size: 28px;
+  }
+
+
+.scheme_image {
+	width: 870px;
+	height: 550px;
+	margin-top: 30px;
+	background-image: url('../public/plan.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.box_arrow {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 880px;
+    height: 50px;
+    border: 1px dashed gray;
+}
+
+.arrow_prev, 
+.arrow_next {
+    text-decoration: none;
+    color: #484747;
+    font-size: 32px;
+}
+.arrow_prev {
+    float: left;
+    margin-left: 10px;
+}
+.arrow_next {
+    float: right;
+  margin-right: 10px;
+}
+
+.footer {
+    font: 16px/32px 'Montserrat';
+    font-weight: 500;
+    text-align: center;
+    height: 90px;
+    padding: 20px;
+    border-top: 1px solid rgb(152, 151, 151, 0.4);;
+
+}
+
+.footer_sign {
+    font-weight: 700;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    margin-left: 12px;
+}
+
+.footer_smile {
+    width: 35px;
+    margin-left: 10px;
+}
+

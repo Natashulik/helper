@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function Createpage() {
+function Create() {
     return(
       <>
       <h2 className="content_title">  Как создать первое react приложение? </h2>
@@ -14,8 +15,7 @@ function Createpage() {
               <code>
             {`
     node -v
-            `}
-              </code>
+    `}  </code>
             </pre>
       </div>
       <div className="content_text"> 
@@ -26,35 +26,35 @@ function Createpage() {
               <code>
             {`
     npm -v
-            `}
+    `}
               </code>
             </pre>
       </div>
       <div className="content_text"> 
             <p>Для создания проекта в командной строке выполняются следующие команды:</p>
       </div>
-      <div className="content_code">
+    <div className="content_code">
             <pre>
               <code>
             {`
     npx create-react-app my-app
     cd my-app
-    npm start
-            `}
+    npm start`
+    }
               </code>
             </pre>
       </div>
       <div className="content_text"> 
-            <p>где my-app  - это имя создаваемого приложения. После этого появится папка my-app, содержащая в себе приложение. Внутри нее будет 
-              находиться папка src - рабочая папка, в которой будет вестись разработка проекта.</p>
+            <p>где my-app  - это имя создаваемого приложения. После этого появится папка my-app, содержащая в себе приложение. 
+              Внутри нее будет находиться папка src - рабочая папка, в которой будет вестись разработка проекта.</p>
       
       </div>
        <div className="box_arrow">
-                <a className="arrow_prev" href="/about"> ⟵</a>
-                <a className="arrow_next" href="/component"> ⟶</a>
+                <Link className="arrow_prev" to="/about"> ⟵ </Link>
+                <Link className="arrow_next" to="/component"> ⟶ </Link>
          </div>
       </>
     )
 }
 
-export default Createpage;
+export default Create;

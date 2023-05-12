@@ -1,9 +1,10 @@
 import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
 
-function Aboutpage() {
+function About() {
     return(
       <>
-      <h2 className="content_title">   Что такое React? </h2>
+      <h2 className="content_title">  Что такое React? </h2>
       <div className="content_text"> 
           <p> React — это библиотека JavaScript с открытым исходным кодом, 
           созданная Facebook для разработки сложных интерактивных пользовательских интерфейсов в веб- и 
@@ -29,11 +30,11 @@ function Aboutpage() {
         </ul>
        </div>
        <div className="box_arrow">
-                <a className="arrow_prev" href="/"> ⟵</a>
-                <a className="arrow_next" href="/create"> ⟶</a>
+       <Link to="/react-gh-pages" className="arrow_prev"> ⟵ </Link>
+       <Link to="/create" className="arrow_next"> ⟶ </Link>
          </div>
       </>
     )
 }
 
-export default Aboutpage;
+export default About;

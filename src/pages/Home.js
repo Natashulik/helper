@@ -1,18 +1,17 @@
 import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
 
-
-function Homepage() {
+function Home() {
     return(
         <div className="content">
             <div className="scheme_title"> Программа изучения React/Redux: </div>
             <div className="scheme_image"> </div>
              <div className="box_arrow">
-               
-                <a className="arrow_next" href="/about"> ⟶</a>
+             <Link to="/about" className="arrow_next"> ⟶ </Link>
              </div>
         </div>
     )
 }
 
-export default Homepage;
+export default Home;
 

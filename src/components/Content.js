@@ -23,7 +23,7 @@ function Content() {
     return(
         <div className="content">
          <Routes>
-            <Route path="/react-gh-pages" element={<Home/>} />
+            <Route path="/" element={<Home/>} />
             <Route path="/about" element={<About/>} />
             <Route path="/create" element={<Create/>} />
             <Route path="/component" element={<Component/>} />

@@ -6,7 +6,7 @@ function Header() {
     return(
         <header>
             <div className="logo">
-            <Link to="/react-gh-pages">
+            <Link to="/">
                 <img className="logo_image" src={logo} alt="логотип"/>
             </Link>
                </div>

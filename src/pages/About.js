@@ -30,7 +30,7 @@ function About() {
         </ul>
        </div>
        <div className="box_arrow">
-       <Link to="/react-gh-pages" className="arrow_prev"> ⟵ </Link>
+       <Link to="/" className="arrow_prev"> ⟵ </Link>
        <Link to="/create" className="arrow_next"> ⟶ </Link>
          </div>
       </>

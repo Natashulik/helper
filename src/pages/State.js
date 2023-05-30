@@ -133,7 +133,7 @@ return(
     <Input />
     <div className="box_arrow">
                 <Link className="arrow_prev" to="/props"> ⟵ </Link>
-                <Link className="arrow_next" to="/lifesycle"> ⟶ </Link>
+                <Link className="arrow_next" to="/lifecycle"> ⟶ </Link>
       </div>
     </>
 )

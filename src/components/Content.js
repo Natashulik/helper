@@ -23,7 +23,7 @@ function Content() {
     return(
         <div className="content">
          <Routes>
-            <Route path="/" element={<Home/>} />
+            <Route path="/helper" element={<Home/>} />
             <Route path="/about" element={<About/>} />
             <Route path="/create" element={<Create/>} />
             <Route path="/component" element={<Component/>} />

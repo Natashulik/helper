@@ -10,7 +10,7 @@ function Header() {
                 <img className="logo_image" src={logo} alt="логотип"/>
             </Link>
                </div>
-            <h1 className="title"><a href="index.html"> Конспект по основам React</a> </h1>
+            <h1 className="title"><Link to="/helper"> Конспект по основам React</Link> </h1>
         </header>
     )
 }
